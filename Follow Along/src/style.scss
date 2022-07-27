@@ -13,6 +13,9 @@ body {
 .search-params {
   width: 1100px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .search-params form {
@@ -20,7 +23,8 @@ body {
   background: #faeff0;
   box-shadow: 0px 0px 12px #aaa, -0px -0px 12px #fff;
   width: 360px;
-  margin: 0px 25px 0px 0px;
+  margin: 0 auto;
+  margin-bottom: 35px;
   padding: 35px 15px 15px 15px;
   float: left;
 }
@@ -331,5 +335,35 @@ header {
   .carousel-smaller > img {
     width: 60px;
     height: 60px;
+  }
+}
+
+.pagination-container {
+  width: 100%;
+  padding: 0 10% 0 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px;
+
+  .pagination-item {
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 2px;
+    border-radius: 3px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+  }
+
+  .page-selected {
+    background-color: #aaa;
+  }
+
+  .btn-disable {
+    background-color: #83575b !important;
+    cursor: default;
   }
 }

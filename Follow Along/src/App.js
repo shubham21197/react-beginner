@@ -4,6 +4,8 @@ import { StrictMode } from "react";
 import SearchParams from "./SearchParams";
 import Details from "./Details";
 
+import './style.scss';
+
 const App = () => {
   return (
     <StrictMode>
