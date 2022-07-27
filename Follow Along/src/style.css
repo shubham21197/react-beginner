@@ -13,6 +13,9 @@ body {
 .search-params {
   width: 1100px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .search-params form {
@@ -20,7 +23,8 @@ body {
   background: #faeff0;
   box-shadow: 0px 0px 12px #aaa, -0px -0px 12px #fff;
   width: 360px;
-  margin: 0px 25px 0px 0px;
+  margin: 0 auto;
+  margin-bottom: 35px;
   padding: 35px 15px 15px 15px;
   float: left;
 }
